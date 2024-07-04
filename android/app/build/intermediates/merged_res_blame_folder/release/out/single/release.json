@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.hiring_tech.app-main-35:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_dashboard_cardarrow1.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_dashboard_cardarrow1.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_home.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_home.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_jobs.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_jobs.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_html.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_html.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_circleinactive.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_circleinactive.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_dashboard_profile.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_dashboard_profile.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_dashboard_welcome.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_dashboard_welcome.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_dashboard_card4.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_dashboard_card4.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_dashboard_card3.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_dashboard_card3.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_firstemoji.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_firstemoji.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_applied.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_applied.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_message.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_message.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-xxxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-xxxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.hiring_tech.app-main-35:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_arrowleft.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_arrowleft.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_icon.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_icon.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_pre.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_pre.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_dashboard_save.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_dashboard_save.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-xxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-xxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_dashboard_cardarrow2.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_dashboard_cardarrow2.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_dashboard_card2.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_dashboard_card2.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.hiring_tech.app-main-35:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.hiring_tech.app-main-35:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.hiring_tech.app-main-35:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_circleactive.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_circleactive.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_dashboard_mask.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_dashboard_mask.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.hiring_tech.app-main-35:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_tv.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_tv.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.hiring_tech.app-main-35:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-hdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-hdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_dashboard_share.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_dashboard_share.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_dashboard_card1.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_dashboard_card1.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_eyeoff.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_eyeoff.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_dashboard_cardarrow3.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_dashboard_cardarrow3.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_splash.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_splash.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.hiring_tech.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.hiring_tech.app-main-35:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.hiring_tech.app-main-35:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-xhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-xhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_dashboard_bellicon.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_dashboard_bellicon.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_dashboard_cross.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_dashboard_cross.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_box.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_box.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_check_box.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_check_box.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_dashboard_cardimage1.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_dashboard_cardimage1.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_flag.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_flag.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_search.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_search.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_dashboard_cardarrow4.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_dashboard_cardarrow4.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_notification.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_notification.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.hiring_tech.app-main-35:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hiring_tech.app-merged_res-34:/drawable-mdpi_src_assets_dashboard_logo.png.flat",
+        "source": "com.hiring_tech.app-res-29:/drawable-mdpi/src_assets_dashboard_logo.png"
+    }
+]
