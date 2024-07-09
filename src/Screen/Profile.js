@@ -87,7 +87,7 @@ export default function Profile({ navigation }) {
   
     try {
       // Send a POST request with the FormData
-      const response = await fetch('http://192.168.29.188:5000/upload-files', {
+      const response = await fetch('https://hiringtechb-2.onrender.com/upload-files', {
         method: 'POST',
         body: formData,
       });

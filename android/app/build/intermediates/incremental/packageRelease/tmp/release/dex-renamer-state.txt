@@ -1,4 +1,4 @@
-#Wed Jul 03 13:20:49 IST 2024
+#Fri Jul 05 13:32:39 IST 2024
 base.0=F\:\\hiring-tech-application-\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 base.1=F\:\\hiring-tech-application-\\android\\app\\build\\intermediates\\global_synthetics_dex\\release\\classes.dex
 base.2=F\:\\hiring-tech-application-\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex

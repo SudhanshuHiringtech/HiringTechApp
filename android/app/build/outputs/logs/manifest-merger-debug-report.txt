@@ -6,6 +6,7 @@ INJECTED from F:\hiring-tech-application-\android\app\src\debug\AndroidManifest.
 INJECTED from F:\hiring-tech-application-\android\app\src\debug\AndroidManifest.xml:2:1-9:12
 INJECTED from F:\hiring-tech-application-\android\app\src\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-async-storage_async-storage] F:\hiring-tech-application-\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-community_slider] F:\hiring-tech-application-\node_modules\@react-native-community\slider\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-document-picker] F:\hiring-tech-application-\node_modules\react-native-document-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-gesture-handler] F:\hiring-tech-application-\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-pager-view] F:\hiring-tech-application-\node_modules\react-native-pager-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
@@ -169,6 +170,8 @@ INJECTED from F:\hiring-tech-application-\android\app\src\debug\AndroidManifest.
 INJECTED from F:\hiring-tech-application-\android\app\src\debug\AndroidManifest.xml
 MERGED from [:react-native-async-storage_async-storage] F:\hiring-tech-application-\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-async-storage_async-storage] F:\hiring-tech-application-\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-community_slider] F:\hiring-tech-application-\node_modules\@react-native-community\slider\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-community_slider] F:\hiring-tech-application-\node_modules\@react-native-community\slider\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-document-picker] F:\hiring-tech-application-\node_modules\react-native-document-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-document-picker] F:\hiring-tech-application-\node_modules\react-native-document-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-gesture-handler] F:\hiring-tech-application-\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44

@@ -23,7 +23,7 @@ const Home = () => {
 
   async function fetchJobs() {
     try {
-      const response = await fetch('http://192.168.29.188:5000/getalljobs');
+      const response = await fetch('https://hiringtechb-2.onrender.com/getalljobs');
       
       if (!response.ok) {
         throw new Error('Network response was not ok');

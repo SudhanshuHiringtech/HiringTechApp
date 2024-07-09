@@ -3,10 +3,35 @@ import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
 import { DrawerContentScrollView, DrawerItemList } from '@react-navigation/drawer';
 import { useNavigation } from '@react-navigation/native';
 import { useSelector, useDispatch } from 'react-redux';
-import { setProfile, selectProfile } from "../Reduxtoolkit/profileSlice";
+import { setProfile, selectProfile ,  clearProfile} from "../Reduxtoolkit/profileSlice";
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const CustomDrawer = (props) => {
   const navigation = useNavigation(); // If you need navigation functions
+
+  const dispatch = useDispatch();
+  const handleLogout = async () => {
+    try {
+      const response = await fetch('http://192.168.29.188:5000/logout', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error('Logout failed');
+      }
+
+      console.log('Logout successful');
+      dispatch(clearProfile());
+      await AsyncStorage.clear();
+      console.log('AsyncStorage cleared successfully');
+      navigation.navigate('Choosejob');
+    } catch (error) {
+      console.error('Error logging out:', error);
+    }
+  };
 
   const profile = useSelector(selectProfile);
   const name = profile?.profile?.user?.name;
@@ -91,7 +116,7 @@ const CustomDrawer = (props) => {
       </Text>
       </TouchableOpacity>
       <TouchableOpacity>
-      <Text style={styles.textStyle}>
+      <Text style={styles.textStyle} onPress={handleLogout}>
         Logout
       </Text>
       </TouchableOpacity>

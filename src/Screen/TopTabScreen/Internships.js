@@ -1,39 +1,51 @@
-// JobListScreen.js
-import React, {useState, useEffect} from 'react';
-import { View, FlatList, StyleSheet } from 'react-native';
+import React, {useState, useEffect, useRef} from 'react';
+import { View, FlatList, StyleSheet, TouchableOpacity, Text } from 'react-native';
 import MainJobCard from '../../Component/MainJobCard';
+import JobFilterBottomSheet from '../../Component/JobFilterBottomSheet';
 
-// const jobs = [
-//   {
-//     id: '1',
-//     title: 'UX/UI Designer Analyst',
-//     location: 'Gurgaon, Haryana, India',
-//     skills: ['HTML', 'JavaScript', 'React.js', '+5 more'],
-//     salary: '₹ 6 LPA - 12 LPA',
-//     startDate: 'Immediate',
-//     experience: '1 - 2 years',
-//     openings: 2,
-//   },
-//   {
-//     id: '2',
-//     title: 'React Native Developer ',
-//     location: 'Indore, Madhya Pradesh India',
-//     skills: ['HTML', 'JavaScript', 'React.js', '+5 more'],
-//     salary: '₹ 6 LPA - 12 LPA',
-//     startDate: 'Immediate',
-//     experience: '1 - 2 years',
-//     openings: 2,
-//   },
-//   // Add more job data here...
-// ];
+
+
 
 const Internships = () => {
   const [jobs, setJobs] = useState();
+  const [filterData, setFilterData] = useState({
+    isJobOfferAttached: false,
+    minStipend: 0,
+    maxDuration: 6,
+    jobMode: null,
+    experience: null,
+    location: '',
+    jobTitle: '',
+    company: '',
+    skillsList: [],
+  });
+
+
+  const handleApply = (data) => {
+    console.log('Filter Data:', data);
+    // Call your API or handle the filter data as needed
+  };
+
+  const handleClearFilter = () => {
+    setFilterData({
+      isJobOfferAttached: false,
+      minStipend: 0,
+      maxDuration: 6,
+      jobMode: null,
+      experience: null,
+      location: '',
+      jobTitle: '',
+      company: '',
+      skillsList: [],
+    });
+  };
+
+  const refRBSheet = useRef();
 
  
 async function fetchJobs() {
   try {
-    const response = await fetch('http://192.168.29.188:5000/jobs/internship');
+    const response = await fetch('https://hiringtechb-2.onrender.com/jobs/internship');
     
     if (!response.ok) {
       throw new Error('Network response was not ok');
@@ -59,6 +71,17 @@ useEffect(() => {
         data={jobs}
         keyExtractor={(item) => item.id}
         renderItem={({ item }) => <MainJobCard job={item} />}
+      />
+         <TouchableOpacity onPress={() => refRBSheet.current.open()}>
+        <Text style={styles.openButton}>Open Filters</Text>
+      </TouchableOpacity>
+      <JobFilterBottomSheet
+        ref={refRBSheet}
+        filterData={filterData}
+        setFilterData={setFilterData}
+        onApply={handleApply}
+        onClear={handleClearFilter}
+        call={'Internship'}
       />
     </View>
   );

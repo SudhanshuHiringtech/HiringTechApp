@@ -1,5 +1,5 @@
-import { useNavigation } from "@react-navigation/native";
-import React, {useState, useEffect
+import { useNavigation} from "@react-navigation/native";
+import React, {useState, useEffect, useRef
 
 } from "react";
 import {
@@ -16,19 +16,20 @@ import { setProfile, selectProfile } from "../../Reduxtoolkit/profileSlice";
 
 import HeaderWithLogo from "../../Component/HeaderWithLogo";
 import AppliedJobsCard from "../../Component/AppliedJobsCard";
+import AppliedJobsFilter from "../../Component/AppliedJobsFilter";
 
 const Applied = () =>{
+   const refRBSheet = useRef();
     const navigation = useNavigation()
     const check= false;
     const [jobs, setJobs] = useState(null);
     const profile = useSelector(selectProfile);
     const candidateId = profile?.profile?.user?._id
 
-
     useEffect(() => {
       const fetchData = async () => {
         try {
-          const response = await fetch(`http://192.168.29.188:5000/appliedjobs/${candidateId}`, {
+          const response = await fetch(`https://hiringtechb-2.onrender.com/appliedjobs/${candidateId}`, {
             method: 'GET',
             headers: {
               'Content-Type': 'application/json',
@@ -81,6 +82,12 @@ const Applied = () =>{
         keyExtractor={item => item.id}
       />
       </View>
+      <TouchableOpacity onPress={() => refRBSheet.current.open()}>
+        <Text style={styles.openButton}>Open Filters</Text>
+      </TouchableOpacity>
+      <AppliedJobsFilter
+        ref={refRBSheet}
+      />
     </View>
   )
 
