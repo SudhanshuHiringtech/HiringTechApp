@@ -2,4 +2,9 @@
 
 ./DS_Store
 
-/android/app/build/outputs/apk/release/app-release.apk
+# Ignore APK files
+android/app/build/outputs/apk/release/*.apk
+android/app/build/outputs/apk/debug/*.apk
+
+# Ignore Gradle execution history files
+android/.gradle/**/executionHistory.bin
